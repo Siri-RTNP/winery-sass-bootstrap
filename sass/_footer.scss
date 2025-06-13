@@ -1,0 +1,31 @@
+#page_footer {
+	@include wry-background("../images/footer-background-scaled.webp", $vert: bottom, $hor: left);
+
+	padding: 90px 30px;
+	font-size: 13px;
+
+	.row:first-of-type {
+		margin-bottom: 64px;
+	}
+
+	.btn-wry-primary {
+		background-color: $heading-color;
+		border-color: $heading-color;
+
+		&:hover {
+			background-color: $secondary;
+			border-color: $secondary;
+		}
+	}
+}
+
+#wry_footer_cards {
+	max-width: 100%;
+	height: auto;
+
+	@include media-breakpoint-up(md) {
+		width: 400px;
+		display: block;
+		margin: 0 auto;
+	}
+}

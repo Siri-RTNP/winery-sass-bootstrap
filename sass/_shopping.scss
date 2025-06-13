@@ -1,0 +1,16 @@
+#shopping {
+	background-image: linear-gradient(#1f0a13 18%, #fff 0%);
+	
+	.card-header {
+		@include wry-background("../images/calltoaction-background.webp", $hor: left);
+	}
+
+	img {
+		max-width: 80px;
+		height: auto;
+	}
+
+	h2 {
+		color: $primary;
+	}
+}

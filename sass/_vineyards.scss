@@ -1,0 +1,11 @@
+#vineyards {
+	@include wry-background("../images/vineyard-tours-background-scaled.webp", $vert: bottom, $hor: left);
+
+	.container {
+		padding: 160px 30px;
+	}
+
+	.h1 {
+		font-size: 52px;
+	}
+}

@@ -11981,6 +11981,29 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #660c34;
 }
 
+h1, .h1 {
+  font-size: 4.5rem;
+}
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 6.25rem;
+  }
+}
+
+.h1 {
+  font-size: 3.75rem;
+  margin-bottom: 1.2rem;
+  color: #45152a;
+}
+
+h2, .h2 {
+  font-size: 2.1875rem;
+}
+
+.lead {
+  font-size: 1.375rem;
+}
+
 #page_header {
   background: #7f0f41 url("../images/header-background-scaled.webp") no-repeat top center;
   background-size: cover;
@@ -12001,6 +12024,7 @@ textarea.form-control-lg {
 .fa-cart-shopping {
   font-size: 1.5rem;
   position: absolute;
+  left: 10px;
 }
 
 #main_nav {
@@ -12009,4 +12033,110 @@ textarea.form-control-lg {
 
 .nav-link:hover, .nav-link.active {
   color: #ff6365 !important;
+}
+
+#hero {
+  min-height: 679px;
+  background: transparent url("../images/hero-background-full-scaled.webp") no-repeat top center;
+  background-size: cover;
+  padding: 80px 30px;
+}
+@media (min-width: 768px) {
+  #hero {
+    padding: 210px 30px;
+  }
+}
+
+#shopping {
+  background-image: linear-gradient(#1f0a13 18%, #fff 0%);
+}
+#shopping .card-header {
+  background: transparent url("../images/calltoaction-background.webp") no-repeat top left;
+  background-size: cover;
+}
+#shopping img {
+  max-width: 80px;
+  height: auto;
+}
+#shopping h2, #shopping .h2 {
+  color: #7f0f41;
+}
+
+#special {
+  padding: 90px 30px;
+}
+#special .wry-price {
+  color: #ff6365;
+}
+
+#subscribe {
+  background: transparent url("../images/subscribe-background-scaled.webp") no-repeat bottom left;
+  background-size: cover;
+  padding: 0 30px 20px;
+}
+@media (min-width: 768px) {
+  #subscribe {
+    padding: 160px 30px 340px;
+  }
+}
+
+.modal-footer button[type=button] {
+  --bs-btn-bg: #6c757d;
+  --bs-btn-border-color: #6c757d;
+  --bs-btn-hover-bg: #5c636a;
+  --bs-btn-hover-border-color: #565e64;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-hover-color: var(--bs-white);
+}
+
+#vineyards {
+  background: transparent url("../images/vineyard-tours-background-scaled.webp") no-repeat bottom left;
+  background-size: cover;
+}
+#vineyards .container {
+  padding: 160px 30px;
+}
+#vineyards .h1 {
+  font-size: 52px;
+}
+
+#news {
+  padding: 120px 30px;
+}
+#news img {
+  filter: grayscale(70%);
+  transition: filter 500ms ease-in-out;
+}
+#news img:hover {
+  filter: none;
+}
+
+#page_footer {
+  background: transparent url("../images/footer-background-scaled.webp") no-repeat bottom left;
+  background-size: cover;
+  padding: 90px 30px;
+  font-size: 13px;
+}
+#page_footer .row:first-of-type {
+  margin-bottom: 64px;
+}
+#page_footer .btn-wry-primary {
+  background-color: #45152a;
+  border-color: #45152a;
+}
+#page_footer .btn-wry-primary:hover {
+  background-color: #ff6365;
+  border-color: #ff6365;
+}
+
+#wry_footer_cards {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  #wry_footer_cards {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=custom.css.map */

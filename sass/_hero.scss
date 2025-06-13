@@ -1,0 +1,10 @@
+#hero {
+	min-height: 679px;
+	
+	@include wry-background("../images/hero-background-full-scaled.webp");
+	padding: 80px 30px;
+
+	@include media-breakpoint-up(md) {
+		padding: 210px 30px;
+	}
+}

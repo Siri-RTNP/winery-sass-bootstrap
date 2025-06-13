@@ -1,0 +1,12 @@
+#news {
+	padding: 120px 30px;
+	
+	img {
+		filter: grayscale(70%);
+		transition: filter 500ms ease-in-out;
+
+		&:hover {
+			filter: none;
+		}
+	}
+}

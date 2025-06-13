@@ -10,3 +10,25 @@
 	--bs-btn-active-bg: #{shade-color($primary, 20%)};
 	--bs-btn-active-border-color: #{shade-color($primary, 20%)};
 }
+
+// Typografie
+h1 {
+	font-size: 4.5rem;
+	@include media-breakpoint-up(md) {
+		font-size: 6.25rem;
+	}
+}
+
+.h1 {
+	font-size: 3.75rem;
+	margin-bottom: 1.2rem;
+	color: $heading-color;
+}
+
+h2 {
+	font-size: 2.1875rem;
+}
+
+.lead {
+	font-size: 1.375rem;
+}
