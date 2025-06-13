@@ -1,0 +1,4 @@
+@mixin wry-background($url, $color: transparent, $repeat: no-repeat, $vert: top, $hor: center, $bgz: cover) {
+	background: $color url($url) $repeat $vert $hor;
+	background-size: $bgz;
+}

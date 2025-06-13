@@ -3,6 +3,7 @@
 // ! Variablen, welche überschriben werden sollen
 // ? bootstrap/scss/_varibles.css Zeile 301
 $primary: #7f0f41;
+$secondary: #ff6365;
 
 // ? bootstrap/scss/_variables.scss Zeile 438
 $body-color: #4a4e57;
@@ -24,3 +25,9 @@ $btn-padding-x: 40px;
 $btn-border-radius: 0;
 
 @import "../bootstrap/scss/bootstrap";
+
+@import "variables";
+@import "mixins";
+@import "basics";
+@import "header";
+@import "nav";

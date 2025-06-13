@@ -1,0 +1,10 @@
+#main_nav {
+	background-color: $heading-color;
+}
+
+.nav-link {
+	&:hover,
+	&.active {
+		color: $primary-wry-light !important;
+	}
+}

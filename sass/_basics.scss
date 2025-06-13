@@ -1,0 +1,12 @@
+.btn-wry-primary {
+	--bs-btn-color: var(--bs-white);
+	--bs-btn-bg: #{$primary};
+	--bs-btn-border-color: #{$primary};
+	--bs-btn-hover-color: var(--bs-white);
+	--bs-btn-hover-bg: #{$secondary};
+	--bs-btn-hover-border-color: #{$secondary};
+	--bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+	--bs-btn-active-color: var(--bs-btn-hover-color);
+	--bs-btn-active-bg: #{shade-color($primary, 20%)};
+	--bs-btn-active-border-color: #{shade-color($primary, 20%)};
+}
