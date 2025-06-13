@@ -1,8 +1,26 @@
-/* ? === custom.scss === */
+/* === custom.scss === */
 
 // ! Variablen, welche überschriben werden sollen
-// ! bootstrap/scss/_varibles.css Zeile 301
+// ? bootstrap/scss/_varibles.css Zeile 301
 $primary: #7f0f41;
 
-@import "../bootstrap/scss/bootstrap";
+// ? bootstrap/scss/_variables.scss Zeile 438
+$body-color: #4a4e57;
 
+// ? bootstrap/scss/_variables.scss Zeile 561
+$box-shadow-lg: 0 1rem 3rem rgb(var(--bs-body-color-rgb));
+
+// ? bootstrap/scss/_variables.scss Zeile 609
+$font-family-base: Montserrat, Helvetica, Arial, sans-serif;
+
+// ? bootstrap/scss/_variables.scss Zeile 654
+$headings-font-family: "Libre Caslon Text", Georgia, "Times New Roman", Times, serif;
+
+// ? bootstrap/scss/_variables.scss Zeile 819
+$btn-padding-y: 17px;
+$btn-padding-x: 40px;
+
+// ? bootstrap/scss/_variables.scss Zeile 849
+$btn-border-radius: 0;
+
+@import "../bootstrap/scss/bootstrap";
