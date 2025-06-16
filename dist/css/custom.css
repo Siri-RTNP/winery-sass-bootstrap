@@ -12139,4 +12139,11 @@ h2, .h2 {
     display: block;
     margin: 0 auto;
   }
+}
+
+#backtotop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  transition: opacity 600ms ease-in-out;
 }/*# sourceMappingURL=custom.css.map */
